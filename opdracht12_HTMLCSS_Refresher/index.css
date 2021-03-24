@@ -1,0 +1,77 @@
+.status {
+    color: gray;
+}
+.accept {
+    border: 2px solid rgb(53, 252, 53);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 9px 0px 9px 9px
+}
+.decline {
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 9px 9px 9px 0px
+}
+.button {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+}
+.pic1 {
+    width: 50px;
+    height: 50px;
+}
+.pic2 {
+    width: 50px;
+    height: 50px;
+}
+.contact {
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    font-size: 20px;
+    color:rgb(0, 0, 3);
+    padding: 5px 5px 5px 5px;
+    margin: 9px;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 50px;
+    grid-template-rows: 60px 50px 1fr 50px;
+}
+.naam{
+   display:grid; 
+   grid-column-start: 1;
+   grid-column-end: 4;
+}
+.status{
+    display:grid; 
+    grid-column-start: 1;
+    grid-column-end: 5;
+ }
+ .text{
+    display:grid; 
+    grid-column-start: 1;
+    grid-column-end: 5;
+ }
+ .button{
+    display:grid; 
+    grid-column-start: 1;
+    grid-column-end: 5;
+ }
+ .picture1{
+    display:grid; 
+    grid-column-start: 4;
+    grid-row-start: 1;
+ }
+ .picture2{
+    display:grid; 
+    grid-column-start: 4;
+    grid-row-start: 1;
+ }
